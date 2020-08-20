@@ -9,7 +9,9 @@ function Header() {
 			<div className="inner clearfix">
 
 				<div className="header-logo">
-					<a href="">&lt;Ekalii/&gt;</a>
+					<span>&lt;</span>
+					<a href="">Ekalii</a>
+					<span>/&gt;</span>
 				</div>
 
 				<ul className="nav-menu">
