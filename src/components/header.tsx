@@ -1,16 +1,21 @@
 import React from 'react';
 import { Fade } from 'react-awesome-reveal';
+import './header.css';
 
 function Header() {
 	return (
-		<Fade duration={1000}>
+		<Fade direction="down" duration={500}>
 		<header className="header header--section">
-			<div className="inner">
+			<div className="inner clearfix">
+
+				<div className="header-logo">
+					<a href="">&lt;Ekalii/&gt;</a>
+				</div>
 
 				<ul className="nav-menu">
 					<li className="nav-list">
 						<a href="#">
-							Skliis
+							Skills
 						</a>
 					</li>
 					<li className="nav-list">
