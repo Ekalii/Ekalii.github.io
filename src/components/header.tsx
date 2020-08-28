@@ -4,7 +4,7 @@ import './header.css';
 
 function Header() {
 	return (
-		<Fade direction="down" duration={500}>
+		<Fade direction="down" duration={800}>
 		<header className="header header--section">
 			<div className="inner clearfix">
 
