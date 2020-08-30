@@ -6,18 +6,24 @@ import Social from '../../components/social/social';
 
 function Hello() {
 	return (
-		<Fade direction="left" duration={800}>
+		<Fade direction="up" duration={800} triggerOnce>
 		<section className="section section--hello">
 			<div className="inner">
 
-				<div className="text-title">
-					{greeting.title}&nbsp;
-					<span className="hello-emoji">👋</span>
-				</div>
-				<div className="text-subtitle">
+				<div className="wrapper">
+					<div className="text-title">
+						{greeting.title}&nbsp;
+						<span className="hello-emoji">👋</span>
+					</div>
+					<div className="text-subtitle">
 
+					</div>
+					<Social />
 				</div>
-				<Social />
+				<img
+					src={require("../../assets/web-developer-color.svg")}
+					alt="web developer"
+				/>
 
 			</div>
 		</section>

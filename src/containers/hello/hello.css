@@ -4,8 +4,12 @@ section {
 	padding: 10px 20px;
 }
 section .inner {
+	display: flex;
 	max-width: 1600px;
 	margin: 0 auto;
+}
+section .wrapper {
+	flex: 1 1;
 }
 section .text-title {
 	font-size: 70px;
@@ -21,8 +25,11 @@ section .text-title .hello-emoji {
 section .text-subtitle {
 
 }
-section .social-media-links {
-
+section img {
+	flex: 1 1;
+	max-width: 800px;
+	max-height: 800px;
+	margin-left: 5px;
 }
 @keyframes hello {
 	0% {transform: rotate(0deg);}
