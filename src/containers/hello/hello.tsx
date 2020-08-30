@@ -2,6 +2,7 @@ import React from 'react';
 import { Fade } from 'react-awesome-reveal';
 import './hello.css';
 import { greeting } from '../../portfolio';
+import Social from '../../components/social/social';
 
 function Hello() {
 	return (
@@ -16,9 +17,7 @@ function Hello() {
 				<div className="text-subtitle">
 
 				</div>
-				<div className="social-media-links">
-
-				</div>
+				<Social />
 
 			</div>
 		</section>
