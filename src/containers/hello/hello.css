@@ -1,0 +1,35 @@
+section {
+	position: relative;
+	margin: 70px 0;
+	padding: 10px 20px;
+}
+section .inner {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+section .text-title {
+	font-size: 70px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+section .text-title .hello-emoji {
+	display: inline-block;
+	transform-origin: 80% 80%;
+	animation: hello 1.8s linear infinite;
+}
+section .text-subtitle {
+
+}
+section .social-media-links {
+
+}
+@keyframes hello {
+	0% {transform: rotate(0deg);}
+	10% {transform: rotate(-10deg);}
+	20% {transform: rotate(12deg);}
+	30% {transform: rotate(-10deg);}
+	40% {transform: rotate(9deg);}
+	50% {transform: rotate(0deg);}
+	100% {transform: rotate(0deg);}
+}
