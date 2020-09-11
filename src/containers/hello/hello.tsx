@@ -16,7 +16,7 @@ function Hello() {
 						<span className="hello-emoji">👋</span>
 					</div>
 					<div className="text-subtitle">
-
+						<span>{greeting.subTitle}</span>
 					</div>
 					<Social />
 				</div>

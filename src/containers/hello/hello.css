@@ -23,7 +23,11 @@ section .text-title .hello-emoji {
 	animation: hello 1.8s linear infinite;
 }
 section .text-subtitle {
-
+	font-weight: 300;
+	color: #888888;
+	margin: 20px 0;
+	font-size: 25px;
+	line-height: 1.5;
 }
 section img {
 	flex: 1 1;
