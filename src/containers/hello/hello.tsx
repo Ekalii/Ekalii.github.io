@@ -22,7 +22,7 @@ function Hello() {
 				</div>
 				<img
 					src={require("../../assets/web-developer-color.svg")}
-					alt="web developer"
+					alt="programmer ekalii"
 				/>
 
 			</div>
