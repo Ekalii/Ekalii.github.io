@@ -1,0 +1,30 @@
+div {
+    font-size: 22px;
+}
+.icon-button i {
+    padding: 10px;
+    display: inline-block;
+    color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 2.6rem;
+    margin: 0 5px;
+    transition: 0.3s;
+}
+.github i {
+    background-color: #333333;
+}
+.linkedin i {
+    background-color: #0e76a8;
+}
+.google i {
+    background-color: #ea4335;
+}
+.facebook i {
+    background-color: #3b5998;
+}
+.medium i {
+    background-color: #000000;
+}
+.github i:hover, .linkedin i:hover, .google i:hover, .facebook i:hover,  .meduim i:hover {
+    background-color: #000000;
+}
