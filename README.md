@@ -3,4 +3,3 @@
 ## Stacks
 * React.js
 * Typescript
-* Sass
