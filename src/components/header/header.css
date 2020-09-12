@@ -16,7 +16,6 @@ header .inner {
 }
 header .header-logo {
 	font-family: "Source Code Pro", sans-serif;
-	height: 100%;
 	font-size: 50px;
 	display: flex;
 	align-items: center;
