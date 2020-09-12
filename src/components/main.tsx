@@ -3,6 +3,7 @@ import Header from './header/header';
 import Hello from '../components/hello/hello';
 import Skill from '../components/skill/skill';
 import Top from '../components/topButton/top';
+import OpenSource from '../components/opensource/opensource';
 
 function Main() {
 	return (
@@ -10,6 +11,7 @@ function Main() {
 			<Header />
 			<Hello />
 			<Skill />
+			<OpenSource />
 			<Top />
 		</div>
 	);
