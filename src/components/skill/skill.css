@@ -8,14 +8,14 @@ section .inner {
     margin: 0 auto;
 }
 section img{
-    flex: 1 1;
+    flex: 1;
     max-width: 800px;
     max-height: 800px;
     margin-right: 10px;
 }
 section .wrapper {
     margin-left: 10px;
-    flex: 1 1;
+    flex: 1;
 }
 .wrapper .title {
     font-size: 60px;
