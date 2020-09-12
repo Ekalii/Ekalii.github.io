@@ -28,7 +28,7 @@ function OpenSource() {
                 query: gql`
                 {
                 user(login: "ekalii") {
-                    pinnedItems(first: 3, types: [REPOSITORY]) {
+                    pinnedItems(first: 2, types: [REPOSITORY]) {
                         totalCount
                         edges {
                             node {
