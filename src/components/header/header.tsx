@@ -17,7 +17,7 @@ function Header() {
 
 				<ul className="nav-menu">
 					<li className="nav-list">
-						<a href="#">
+						<a href="#skills">
 							Skills
 						</a>
 					</li>
