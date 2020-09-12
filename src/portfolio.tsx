@@ -18,13 +18,20 @@ export const skills = {
 	title: "I Can Do",
 	subTitle: "FRONT-END DEVELOPER WHO WANTS TO EXPLORE MORE TECHs & BACK-END",
 	describeSkills: [
-		emoji("✔ Develop reponsive web application"),
+		emoji("✔ Develop responsive web application"),
 		emoji("✔ Interesting in PWA(Progressive Web App) and SPA"),
 		emoji("✔ Integration of third party services such as AWS, Firebase"),
-		emoji("✔ Proficient in using Git and cooperating with coworker"),
+		emoji("✔ Proficient in using Git, good communication skills"),
+		emoji("✔ Interesting in Typescript and designing web using Redux"),
 	],
-	icons: ["fab fa-html5", "fab fa-css3-alt", "fab fa-js", "fab fa-react", "fab fa-sass", "fab fa-aws"],
-	text: ["HTML5", "CSS3", "JS", "React", "Sass", "AWS"]
+	icons: [
+		{fontAwesome: "fab fa-html5", text: "HTML5"},
+		{fontAwesome: "fab fa-css3-alt", text: "CSS3"},
+		{fontAwesome: "fab fa-js", text: "JS"},
+		{fontAwesome: "fab fa-sass", text: "Sass"},
+		{fontAwesome: "fab fa-react", text: "React"},
+		{fontAwesome: "fab fa-aws", text: "AWS"},
+	]
 };
 
 export const openSourceProjects = {
