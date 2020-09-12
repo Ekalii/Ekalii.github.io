@@ -17,7 +17,7 @@ function OpenSource() {
             request: (operation) => {
                 operation.setContext({
                     headers: {
-                        authorization: `Bearer c7f6899f8a5d43fc129d6eab2c4b33065362a09d`,
+                        authorization: `Bearer a6bfdf50b6cd1d79ff806ff41aadb60ec37fb79d`,
                     },
                 });
             },
@@ -68,9 +68,15 @@ function OpenSource() {
         setRepos(arr);
     }
     return (
-        <div>
-            {repos}
-        </div>
+        // <div className="main" id="opensource">
+        //     <h1 className="project-title">Open Source Projects</h1>
+        //     <div className="repo-cards-div-main">
+        //         {repos.map((v, i) => {
+        //             return <GithubRepoCard repos={v} key={v.node.id} />;
+        //         })}
+        //     </div>
+        // </div>
+        <div>opensource</div>
     );
 }
 export default OpenSource;
