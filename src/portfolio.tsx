@@ -15,13 +15,16 @@ export const socialMediaLinks = {
 };
 
 export const skills = {
-	subTitle: "FRONT-END DEVELOPER WHO WANTS TO EXPLORE MORE TECHs AND BACK-END",
+	title: "I Can Do",
+	subTitle: "FRONT-END DEVELOPER WHO WANTS TO EXPLORE MORE TECHs & BACK-END",
 	describeSkills: [
 		emoji("✔ Develop reponsive web application"),
 		emoji("✔ Interesting in PWA(Progressive Web App) and SPA"),
 		emoji("✔ Integration of third party services such as AWS, Firebase"),
 		emoji("✔ Proficient in using Git and cooperating with coworker"),
-	] 
+	],
+	icons: ["fab fa-html5", "fab fa-css3-alt", "fab fa-js", "fab fa-react", "fab fa-sass", "fab fa-aws"],
+	text: ["HTML5", "CSS3", "JS", "React", "Sass", "AWS"]
 };
 
 export const openSourceProjects = {
