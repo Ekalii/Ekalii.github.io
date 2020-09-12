@@ -17,7 +17,7 @@ function OpenSource() {
             request: (operation) => {
                 operation.setContext({
                     headers: {
-                        authorization: `Bearer 24f453a66fdaa8d02bd7937963daedcb329631aa`,
+                        authorization: `Bearer c7f6899f8a5d43fc129d6eab2c4b33065362a09d`,
                     },
                 });
             },
@@ -69,7 +69,7 @@ function OpenSource() {
     }
     return (
         <div>
-            Open Source
+            {repos}
         </div>
     );
 }
