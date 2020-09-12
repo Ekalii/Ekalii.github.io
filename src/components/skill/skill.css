@@ -1,0 +1,58 @@
+section {
+    margin-bottom: 70px;
+    position: relative;
+}
+section .inner {
+    max-width: 1600px;
+    display: flex;
+    margin: 0 auto;
+}
+section img{
+    flex: 1 1;
+    max-width: 800px;
+    max-height: 800px;
+    margin-right: 10px;
+}
+section .wrapper {
+    margin-left: 10px;
+    flex: 1 1;
+}
+.wrapper .title {
+    font-size: 60px;
+    font-weight: 400;
+}
+.wrapper .subtitle {
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 300;
+    color: #888888;
+}
+.wrapper .skill-icons {
+    text-align: center;
+    color: #888888;
+}
+.wrapper .skill-icons .icon-inline {
+    display: inline-block;
+}
+.wrapper .skill-icons li {
+    font-size: 2em;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.wrapper .skill-icons p {
+    margin-top: 10px;
+    font-size: 15px;
+}
+.wrapper .desc-skills {
+    margin-top: 30px;
+    font-size: 22px;
+    color: #888888;
+}
+.wrapper .desc-skills p {
+    margin-top: 20px;
+    font-weight: 300;
+}
+.wrapper .skill-icons li:hover {
+    color: #077394;
+    transition: 0.3s;
+}
