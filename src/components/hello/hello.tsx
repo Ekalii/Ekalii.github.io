@@ -20,10 +20,13 @@ function Hello() {
 					</div>
 					<Social />
 				</div>
+
+				<div className="image-div">
 				<img
 					src={require("../../assets/web-developer-color.svg")}
 					alt="programmer ekalii"
 				/>
+				</div>
 
 			</div>
 		</section>

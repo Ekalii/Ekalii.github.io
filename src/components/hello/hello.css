@@ -9,7 +9,7 @@ section .inner {
 	margin: 0 auto;
 }
 section .wrapper {
-	flex: 1 1;
+	flex: 1;
 }
 section .text-title {
 	font-size: 80px;
@@ -25,14 +25,15 @@ section .text-title .hello-emoji {
 section .text-subtitle {
 	font-weight: 300;
 	color: #888888;
-	margin: 20px 0;
+	margin-top: 50px;
 	font-size: 25px;
 	line-height: 1.5;
 }
+section .image-div {
+	flex: 1;
+}
 section img {
-	flex: 1 1;
-	max-width: 800px;
-	max-height: 800px;
+	width: 100%;
 	margin-left: 5px;
 }
 @keyframes hello {
