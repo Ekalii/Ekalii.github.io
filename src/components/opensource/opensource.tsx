@@ -11,6 +11,7 @@ function OpenSource() {
     }, [])
 
     function getRepoData() {
+        // I don't know well about this part...
         const client = new ApolloClient({
             uri: "https://api.github.com/graphql",
             request: (operation) => {
