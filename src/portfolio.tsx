@@ -25,12 +25,12 @@ export const skills = {
 		emoji("✔ Interesting in Typescript and designing web using Redux"),
 	],
 	icons: [
-		{fontAwesome: "fab fa-html5", text: "HTML5"},
-		{fontAwesome: "fab fa-css3-alt", text: "CSS3"},
-		{fontAwesome: "fab fa-js", text: "JS"},
-		{fontAwesome: "fab fa-sass", text: "Sass"},
-		{fontAwesome: "fab fa-react", text: "React"},
-		{fontAwesome: "fab fa-aws", text: "AWS"},
+		{fontAwesome: "fab fa-html5", text: "HTML5", key: 1},
+		{fontAwesome: "fab fa-css3-alt", text: "CSS3", key: 2},
+		{fontAwesome: "fab fa-js", text: "JS", key: 3},
+		{fontAwesome: "fab fa-sass", text: "Sass", key: 4},
+		{fontAwesome: "fab fa-react", text: "React", key: 5},
+		{fontAwesome: "fab fa-aws", text: "AWS", key: 6},
 	]
 };
 
