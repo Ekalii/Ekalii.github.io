@@ -10,7 +10,7 @@
 .main .repo-cards {
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 400px);
+    grid-template-columns: repeat(auto-fit, 410px);
 }
 .main a {
     display: block;
