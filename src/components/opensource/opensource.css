@@ -1,0 +1,32 @@
+.main {
+    margin-top: 70px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.main h1 {
+    font-size: 60px;
+    font-weight: 400;
+}
+.main .repo-cards {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);
+}
+.main a {
+    display: block;
+    width: max-content;
+    padding: 15px 30px;
+    margin: 15px auto 50px auto;
+    border: 2px solid #9e19b0;
+    background-color: #9e19b0;
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.main a:hover {
+    color: #9e19b0;
+    background-color: #ffffff;
+    transition: 0.3s ease-out;
+}
