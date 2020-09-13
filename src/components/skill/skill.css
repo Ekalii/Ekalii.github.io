@@ -1,5 +1,6 @@
 section {
-    margin-bottom: 90px;
+    margin-top: 0 !important;
+    margin-bottom: 70px;
     position: relative;
 }
 section .inner {
@@ -7,15 +8,17 @@ section .inner {
     display: flex;
     margin: 0 auto;
 }
+section .skill-image {
+    flex: 1 1;
+}
 section img{
-    flex: 1;
-    max-width: 800px;
-    max-height: 800px;
+    max-width: 100%;
+    height: auto;
     margin-right: 10px;
 }
 section .wrapper {
     margin-left: 10px;
-    flex: 1;
+    flex: 1 1;
 }
 .wrapper .title {
     font-size: 60px;
@@ -36,7 +39,7 @@ section .wrapper {
 }
 .wrapper .skill-icons li {
     font-size: 2em;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-right: 40px;
 }
 .wrapper .skill-icons p {

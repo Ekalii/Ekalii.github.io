@@ -1,18 +1,20 @@
 import React from 'react';
 import './skill.css';
-import { Fade } from 'react-awesome-reveal';
 import { skills } from '../../portfolio';
 
 function Skill() {
+    const Fade: any = require("react-reveal/Fade");
     return(
         <section id="skills">
             <div className="inner">
+                
+                <div className="skill-image">
+                    <Fade left duration={1000}>
+                    <img src={require("../../assets/skills.svg")} alt="working ekalii" />
+                    </Fade>
+                </div>
 
-                <Fade duration={800} direction="left">
-                <img src={require("../../assets/skills.svg")} alt="working ekalii" />
-                </Fade>
-
-                <Fade duration={800} direction="right">
+                <Fade right duration={1000}>
                 <div className="wrapper">
                     <div className="title">
                         <p>{skills.title}</p>
