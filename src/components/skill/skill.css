@@ -1,22 +1,22 @@
-section {
-    margin-top: 0 !important;
-    margin-bottom: 70px;
+.section--skill {
+    margin-top: 100px !important;
+    padding: 0 20px;
     position: relative;
 }
-section .inner {
+.section--skill .inner {
     max-width: 1600px;
     display: flex;
     margin: 0 auto;
 }
-section .skill-image {
+.section--skill .skill-image {
     flex: 1 1;
 }
-section img{
+.section--skill img{
     max-width: 100%;
     height: auto;
     margin-right: 10px;
 }
-section .wrapper {
+.section--skill .wrapper {
     margin-left: 10px;
     flex: 1 1;
 }
