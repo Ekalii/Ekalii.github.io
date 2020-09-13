@@ -28,8 +28,8 @@ function OpenSource() {
             .query({
                 query: gql`
                 {
-                user(login: "ekalii") {
-                    pinnedItems(first: 2, types: [REPOSITORY]) {
+                user(login: "ikalli") {
+                    pinnedItems(first: 6, types: [REPOSITORY]) {
                         totalCount
                         edges {
                             node {
@@ -71,11 +71,12 @@ function OpenSource() {
     return (
         <div className="main" id="opensource">
             <h1 className="project-title">Open Source Projects</h1>
-            <div className="repo-cards-div-main">
+            <div className="repo-cards">
                 {repos.map((v, i) => {
                     return <GithubCard repos={v} />;
                 })}
             </div>
+            <a href="https://github.com/Ikalli" target="_blank">More Projects</a>
         </div>
     );
 }
