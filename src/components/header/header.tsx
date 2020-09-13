@@ -28,17 +28,17 @@ function Header() {
 					</li>
 					<li className="nav-list">
 						<a href="#">
-							Projects
-						</a>
-					</li>
-					<li className="nav-list">
-						<a href="#">
 							Experience
 						</a>
 					</li>
 					<li className="nav-list">
 						<a href="#">
 							Achievements
+						</a>
+					</li>
+					<li className="nav-list">
+						<a href="#">
+							Blogs
 						</a>
 					</li>
 					<li className="nav-list">
