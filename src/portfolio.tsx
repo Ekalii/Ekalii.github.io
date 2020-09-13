@@ -1,7 +1,7 @@
 import emoji from 'react-easy-emoji';
 
 export const greeting = {
-	username: 'Ikalii',
+	username: 'Ikalli',
 	title: 'Hello I\'m Ikalli!',
 	subTitle: emoji("Majoring in Software👨‍🎓 | Wanna be Full-Stack Developer👨‍💻 | Working Hard, Fully Passionated! | Future Google Developer")
 };
