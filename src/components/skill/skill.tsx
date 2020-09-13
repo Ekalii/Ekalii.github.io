@@ -5,14 +5,14 @@ import { skills } from '../../portfolio';
 function Skill() {
     const Fade: any = require("react-reveal/Fade");
     return(
-        <section id="skills">
+        <section className="section section--skill" id="skills">
             <div className="inner">
-                
+
+                <Fade left duration={1000}>
                 <div className="skill-image">
-                    <Fade left duration={1000}>
                     <img src={require("../../assets/skills.svg")} alt="working ekalii" />
-                    </Fade>
                 </div>
+                </Fade>
 
                 <Fade right duration={1000}>
                 <div className="wrapper">
