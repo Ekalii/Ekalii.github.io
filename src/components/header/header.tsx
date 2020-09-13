@@ -25,12 +25,12 @@ function Header() {
 						</a>
 					</li>
 					<li className="nav-list">
-						<a href="#">
+						<a href="#achievement">
 							Achievements
 						</a>
 					</li>
 					<li className="nav-list">
-						<a href="#">
+						<a href="#blog">
 							Blogs
 						</a>
 					</li>
