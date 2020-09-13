@@ -1,7 +1,8 @@
 import React, { useState, useEffect, lazy, Suspense } from 'react';
 import ApolloClient, { gql } from 'apollo-boost';
 import './opensource.css';
-import GithubCard from '../githubcard/githubcard'
+import GithubCard from '../githubcard/githubcard';
+import { achievements } from '../../portfolio';
 
 function OpenSource() {
     // const RepoCard = lazy(() => import('../../components/repocard/repocard'))
@@ -70,7 +71,7 @@ function OpenSource() {
     }
     return (
         <div className="main" id="opensource">
-            <h1 className="project-title">Open Source Projects</h1>
+            <h1 className="project-title">{achievements.title}</h1>
             <div className="repo-cards">
                 {repos.map((v, i) => {
                     return <GithubCard repos={v} />;

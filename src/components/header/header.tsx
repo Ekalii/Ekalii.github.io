@@ -1,11 +1,9 @@
 import React from 'react';
-import { Fade } from 'react-awesome-reveal';
 import './header.css';
 import { greeting } from '../../portfolio';
 
 function Header() {
 	return (
-		<Fade direction="down" duration={800}>
 		<header className="header header--section">
 			<div className="inner clearfix">
 
@@ -50,7 +48,6 @@ function Header() {
 
 			</div>
 		</header>
-		</Fade>
 	);
 }
 export default Header;

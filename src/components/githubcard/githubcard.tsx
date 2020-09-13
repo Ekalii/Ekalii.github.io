@@ -1,5 +1,4 @@
-import React from 'react';
-import { Fade } from 'react-awesome-reveal';
+import React, { ReactElement } from 'react';
 import './githubcard.css'
 
 function GithubCard({ repos }: any) {
@@ -8,8 +7,9 @@ function GithubCard({ repos }: any) {
         if (win === null) throw new Error("url not found")
         win.focus()
     }
+    const Fade: any = require("react-reveal/Fade");
     return(
-        <Fade duration={1000} direction="up">
+        <Fade duration={1000} bottom>
         <div>
             <div className="repo-card" onClick={() => onClick(repos.node.url)}>
                 

@@ -1,12 +1,12 @@
 import React from 'react';
-import { Fade } from 'react-awesome-reveal';
 import './hello.css';
 import { greeting } from '../../portfolio';
 import Social from '../../components/social/social';
 
 function Hello() {
+	const Fade: any = require("react-reveal/Fade");
 	return (
-		<Fade direction="up" duration={800} triggerOnce>
+		<Fade bottom duration={800}>
 		<section className="section section--hello">
 			<div className="inner">
 
