@@ -1,5 +1,5 @@
 # Ikalli's Tech Blog
 
 ## Stacks
-* Reac
+* React
 * Typescript
