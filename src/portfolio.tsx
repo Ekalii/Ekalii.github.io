@@ -34,10 +34,6 @@ export const skills = {
 	]
 };
 
-export const openSourceProjects = {
-	subTitle: "Nothing yet..."
-};
-
 export const toyProjects = {
 	subTitle: ""
 }
