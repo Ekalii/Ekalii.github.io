@@ -1,6 +1,17 @@
-section {
+.section--achievement {
+    margin-top: 100px !important;
+}
+.section--achievement .inner {
+    max-width: 1600px;
+    margin: 0 auto;
     
 }
-.inner {
-    display: block;
+.section--achievement .title {
+    margin: 0;
+    font-size: 60px;
+}
+.section--achievement .sub-title {
+    font-size: 22px;
+    color: #888888;
+    font-weight: 300;
 }

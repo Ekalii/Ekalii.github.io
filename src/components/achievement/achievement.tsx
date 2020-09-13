@@ -4,7 +4,7 @@ import { achievements } from '../../portfolio';
 
 function Achievement() {
     return (
-        <section>
+        <section className="section--achievement" id="#achievement">
             <div className="inner">
 
                 <div className="title">
