@@ -1,0 +1,19 @@
+.section--blog {
+    margin-top: 100px;
+    padding: 0px 20px;
+}
+.section--blog .inner {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.section--blog .title {
+    font-size: 60px;
+}
+.section--blog .sub-title {
+    font-size: 22px;
+    color: #888888;
+    font-weight: 300;
+}
+.section--blog .content {
+
+}

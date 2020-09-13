@@ -5,6 +5,7 @@ import Skill from '../components/skill/skill';
 import Top from '../components/topButton/top';
 import OpenSource from '../components/opensource/opensource';
 import Achievement from '../components/achievement/achievement';
+import Blog from '../components/blog/blog';
 
 function Main() {
 	return (
@@ -14,6 +15,7 @@ function Main() {
 			<Skill />
 			<OpenSource />
 			<Achievement />
+			<Blog />
 			<Top />
 		</div>
 	);
