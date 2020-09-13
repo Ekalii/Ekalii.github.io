@@ -1,13 +1,13 @@
 import emoji from 'react-easy-emoji';
 
 export const greeting = {
-	username: 'Ekalii',
-	title: 'Hello I\'m Ekalii!',
+	username: 'Ikalii',
+	title: 'Hello I\'m Ikalli!',
 	subTitle: emoji("Majoring in Software👨‍🎓 | Wanna be Full-Stack Developer👨‍💻 | Working Hard, Fully Passionated! | Future Google Developer")
 };
 
 export const socialMediaLinks = {
-	github: 'https://github.com/ekalii',
+	github: 'https://github.com/ikalli',
 	linkedin: 'https://www.linkedin.com/in/doeon-an-2b8b21164',
 	gmail: 'andoune0719@gmail.com',
 	facebook: 'https://www.facebook.com/andoeon/',
