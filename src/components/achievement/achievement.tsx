@@ -5,7 +5,7 @@ import AchievementCard from '../ahievementcard/achievementcard'
 
 function Achievement() {
     return (
-        <section className="section--achievement" id="#achievement">
+        <section className="section--achievement" id="achievement">
             <div className="inner">
 
                 <div className="achieve-title">
