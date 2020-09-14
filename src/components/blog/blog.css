@@ -15,3 +15,7 @@
     color: #888888;
     font-weight: 300;
 }
+.section--blog .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 32%);
+}
