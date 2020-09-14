@@ -31,6 +31,7 @@
     color: #888888;
 }
 .wrapper .skill-icons {
+    font-size: 22px;
     text-align: center;
     color: #888888;
 }
@@ -39,7 +40,7 @@
 }
 .wrapper .skill-icons li {
     font-size: 2em;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-right: 40px;
 }
 .wrapper .skill-icons p {
