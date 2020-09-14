@@ -1,17 +1,21 @@
 .section--achievement {
-    margin-top: 100px !important;
+    margin-top: 100px;
 }
 .section--achievement .inner {
     max-width: 1600px;
     margin: 0 auto;
-    
 }
-.section--achievement .title {
+.section--achievement .achieve-title {
     margin: 0;
     font-size: 60px;
 }
-.section--achievement .sub-title {
+.section--achievement .achieve-sub-title {
+    margin-top: 30px;
     font-size: 22px;
     color: #888888;
     font-weight: 300;
+}
+.section--achievement .achieve-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 32%);
 }
