@@ -4,6 +4,7 @@
 	display: block;
 }
 header {
+	margin-top: 10px;
 	height: 100px;
 	padding: 0 20px;
 	position: relative;
@@ -17,11 +18,9 @@ header .inner {
 header .header-logo {
 	font-family: "Source Code Pro", sans-serif;
 	font-size: 50px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	float: left;
 	margin-left: 50px;
+	padding: 25px 0;
 }
 header .header-logo span {
 	color: #a8a8a8;
