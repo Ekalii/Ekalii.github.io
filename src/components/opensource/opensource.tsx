@@ -73,7 +73,7 @@ function OpenSource() {
         <div className="main" id="opensource">
             <h1 className="project-title">{projects.title}</h1>
             <div className="repo-cards">
-                {repos.map((v, i) => {
+                {repos.map((v) => {
                     return <GithubCard repos={v} />;
                 })}
             </div>
