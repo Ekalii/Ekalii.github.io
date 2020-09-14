@@ -1,0 +1,23 @@
+import React from 'react';
+import { achievements } from '../../portfolio';
+import './achievementcard.css'
+
+function AchievementCard({ achieves }: any) {
+    const Fade: any = require('react-reveal/Fade');
+    return(
+        <Fade bottom duration={800}>
+        <div className="achieve-card">
+            <div className="achieve-card-img">
+                <img src={achieves.img} alt={achieves.alt} className/>
+            </div>
+            <div className="achieve-card-title">
+                <p>{achieves.title}</p>
+            </div>
+            <div className="achieve-card-desc">
+                <p>{achieves.desc}</p>
+            </div>
+        </div>
+        </Fade>
+    );
+}
+export default AchievementCard;
