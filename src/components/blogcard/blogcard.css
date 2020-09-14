@@ -1,0 +1,26 @@
+.blog-card {
+    display: block;
+    border-radius: 10px;
+    color: rgb(88, 96, 105);
+    cursor: pointer;
+    box-shadow: 0 0 36px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin: 70px 30px 30px 0;
+    text-decoration: none;
+    color: #000000;
+}
+.blog-card:hover {
+    transition: 0.4s ease-out;
+    box-shadow: 0 4px 8px rgba(38,38,38,0.2);
+    background-color: #077394;
+    color: #ffffff;
+}
+.blog-card .blog-card-title {
+    font-size: 25px;
+    font-weight: 500;
+}
+.blog-card .blog-card-desc {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #888888;
+}

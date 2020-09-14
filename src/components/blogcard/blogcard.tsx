@@ -10,7 +10,7 @@ function BlogCard({ blogs }: any) {
                 <p>{blogs.title}</p>
             </div>
             <div className="blog-card-desc">
-                <p>{blogs.subTitle}</p>
+                <p>{blogs.desc}</p>
             </div>
         </a>
         </Fade>
