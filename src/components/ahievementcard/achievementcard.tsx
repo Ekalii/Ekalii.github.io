@@ -8,7 +8,7 @@ function AchievementCard({ achieves }: any) {
         <Fade bottom duration={800}>
         <div className="achieve-card">
             <div className="achieve-card-img">
-                <img src={achieves.img} alt={achieves.alt} className/>
+                <img src={achieves.img} alt={achieves.alt}/>
             </div>
             <div className="achieve-card-title">
                 <p>{achieves.title}</p>
