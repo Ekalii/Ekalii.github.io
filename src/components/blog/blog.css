@@ -10,10 +10,8 @@
     font-size: 60px;
 }
 .section--blog .sub-title {
+    margin-top: 30px;
     font-size: 22px;
     color: #888888;
     font-weight: 300;
-}
-.section--blog .content {
-
 }

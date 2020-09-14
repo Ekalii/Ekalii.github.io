@@ -1,6 +1,7 @@
 import React from 'react';
 import './blog.css';
 import { blogs } from '../../portfolio';
+import BlogCard from '../blogcard/blogcard';
 
 function Blog() {
     return (
@@ -16,7 +17,9 @@ function Blog() {
                 </div>
 
                 <div className="content">
-
+                    {blogs.list.map(v => {
+                        return <BlogCard blogs={v} />
+                    })}
                 </div>
                 
             </div>
