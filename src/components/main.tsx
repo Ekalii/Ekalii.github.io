@@ -6,6 +6,7 @@ import Top from '../components/topButton/top';
 import OpenSource from '../components/opensource/opensource';
 import Achievement from '../components/achievement/achievement';
 import Blog from '../components/blog/blog';
+import Contact from '../components/contact/contact';
 
 function Main() {
 	return (
@@ -16,6 +17,7 @@ function Main() {
 			<OpenSource />
 			<Achievement />
 			<Blog />
+			<Contact />
 			<Top />
 		</div>
 	);
