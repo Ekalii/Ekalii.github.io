@@ -6,7 +6,7 @@ import Social from '../social/social';
 function Contact() {
     const Fade: any = require('react-reveal/Fade');
     return (
-        <Fade borrom duration={800}>
+        <Fade bottom duration={800}>
         <section className="section--contact" id="contact">
             <div className="inner">
 
