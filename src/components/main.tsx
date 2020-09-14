@@ -7,6 +7,7 @@ import OpenSource from '../components/opensource/opensource';
 import Achievement from '../components/achievement/achievement';
 import Blog from '../components/blog/blog';
 import Contact from '../components/contact/contact';
+import Footer from '../components/footer/footer';
 
 function Main() {
 	return (
@@ -18,6 +19,7 @@ function Main() {
 			<Achievement />
 			<Blog />
 			<Contact />
+			<Footer />
 			<Top />
 		</div>
 	);

@@ -35,7 +35,7 @@ function Header() {
 						</a>
 					</li>
 					<li className="nav-list">
-						<a href="#">
+						<a href="#contact">
 							Contact Me
 						</a>
 					</li>

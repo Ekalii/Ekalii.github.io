@@ -5,7 +5,7 @@ import Social from '../social/social';
 
 function Contact() {
     return (
-        <section className="section--contact">
+        <section className="section--contact" id="contact">
             <div className="inner">
 
                 <div className="wrapper">
