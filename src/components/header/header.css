@@ -44,11 +44,59 @@ header .nav-menu li {
 	margin-right: 50px;
 }
 header .nav-menu li a {
-	font-size: 20px;
+	font-size: 25px;
 	text-decoration-line: none;
 	color: #1f1f1f;
 }
 header .nav-menu li a:hover {
 	color: #077394;
 	transition: 0.2s ease-out;
+}
+@media screen and (max-width: 1200px) {
+	header {
+		height: 80px
+	}
+	header .header-logo {
+		font-size: 32px;
+		padding: 24px 0;
+	}
+	header .nav-menu li a {
+		font-size: 17px;
+	}
+}
+@media screen and (max-width: 980px) {
+	header {
+		height: 60px
+	}
+	header .header-logo {
+		font-size: 20px;
+		padding: 20px 0;
+	}
+	header .nav-menu li a {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 768px) {
+	header {
+		height: fit-content;
+	}
+	header .header-logo {
+		font-size: 32px;
+		padding: 24px 0;
+		margin-left: 0;
+	}
+	header .nav-menu {
+		width: 100%;
+		clear: both;
+		display: none;
+		float: none;
+		text-align: center;
+	}
+	header .nav-menu .nav-list {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	header .nav-menu li a {
+		font-size: 20px;
+	}
 }

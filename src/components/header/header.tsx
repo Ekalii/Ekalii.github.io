@@ -3,6 +3,24 @@ import './header.css';
 import { greeting } from '../../portfolio';
 
 function Header() {
+	const onClickMenu: any = function() {
+		const toggleNav: HTMLElement | null = document.getElementById("toggle-nav");
+		const menuIcon: HTMLElement | null = document.getElementById("menu-icon");
+		const closeIcon: HTMLElement | null = document.getElementById("close-icon");
+		if (!toggleNav || !menuIcon || !closeIcon) throw new Error("HTML Error!")
+		toggleNav.style.display = "block";
+		menuIcon.style.display = "none";
+		closeIcon.style.display = "block";
+	};
+	const onClickClose: any = function() {
+		const toggleNav: HTMLElement | null = document.getElementById("toggle-nav");
+		const menuIcon: HTMLElement | null = document.getElementById("menu-icon");
+		const closeIcon: HTMLElement | null = document.getElementById("close-icon");
+		if (!toggleNav || !menuIcon || !closeIcon) throw new Error("HTML Error!")
+		toggleNav.style.display = "none";
+		menuIcon.style.display = "block";
+		closeIcon.style.display = "none";
+	};
 	return (
 		<header className="header header--section">
 			<div className="inner clearfix">
@@ -13,7 +31,11 @@ function Header() {
 					<span>/&gt;</span>
 				</div>
 
-				<ul className="nav-menu">
+				<div className="toggle-btn">
+					
+				</div>
+
+				<ul className="nav-menu" id="toggle-nav">
 					<li className="nav-list">
 						<a href="#skills">
 							Skills
