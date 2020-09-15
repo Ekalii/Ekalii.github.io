@@ -5,21 +5,12 @@ import { greeting } from '../../portfolio';
 function Header() {
 	const onClickMenu: any = function() {
 		const toggleNav: HTMLElement | null = document.getElementById("toggle-nav");
-		const menuIcon: HTMLElement | null = document.getElementById("menu-icon");
-		const closeIcon: HTMLElement | null = document.getElementById("close-icon");
-		if (!toggleNav || !menuIcon || !closeIcon) throw new Error("HTML Error!")
-		toggleNav.style.display = "block";
-		menuIcon.style.display = "none";
-		closeIcon.style.display = "block";
-	};
-	const onClickClose: any = function() {
-		const toggleNav: HTMLElement | null = document.getElementById("toggle-nav");
-		const menuIcon: HTMLElement | null = document.getElementById("menu-icon");
-		const closeIcon: HTMLElement | null = document.getElementById("close-icon");
-		if (!toggleNav || !menuIcon || !closeIcon) throw new Error("HTML Error!")
-		toggleNav.style.display = "none";
-		menuIcon.style.display = "block";
-		closeIcon.style.display = "none";
+		if (!toggleNav) throw new Error("HTML Error!")
+		if (toggleNav.style.display === "block") {
+			toggleNav.style.display = "none";
+		} else {
+			toggleNav.style.display = "block";
+		}
 	};
 	return (
 		<header className="header header--section">
@@ -31,8 +22,8 @@ function Header() {
 					<span>/&gt;</span>
 				</div>
 
-				<div className="toggle-btn">
-					
+				<div className="toggle-btn" onClick={onClickMenu}>
+					<i className="fas fa-bars"></i>
 				</div>
 
 				<ul className="nav-menu" id="toggle-nav">
