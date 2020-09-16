@@ -1,6 +1,5 @@
 import React from 'react';
-import { achievements } from '../../portfolio';
-import './achievementcard.css'
+import './achievementcard.css';
 
 function AchievementCard({ achieves }: any) {
     const Fade: any = require('react-reveal/Fade');
