@@ -8,13 +8,7 @@ function Skill() {
         <section className="section section--skill" id="skills">
             <div className="inner">
 
-                <Fade left duration={1000}>
-                <div className="skill-image">
-                    <img src={require("../../assets/skills.svg")} alt="working ekalii" />
-                </div>
-                </Fade>
-
-                <Fade right duration={1000}>
+            <Fade right duration={1000}>
                 <div className="wrapper">
                     <div className="title">
                         <p>{skills.title}</p>
@@ -35,6 +29,12 @@ function Skill() {
                     <div className="desc-skills">
                         {skills.describeSkills.map(desc => <p>{desc}</p>)}
                     </div>
+                </div>
+                </Fade>
+
+                <Fade left duration={1000}>
+                <div className="skill-image">
+                    <img src={require("../../assets/skills.svg")} alt="working ekalii" />
                 </div>
                 </Fade>
 
