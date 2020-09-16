@@ -39,10 +39,6 @@
   },
   "devDependencies": {
     "apollo-boost": "^0.4.9",
-    "dotenv": "^8.2.0",
-    "graphql": "^15.3.0",
-    "react-app-rewired": "^2.1.6",
-    "react-awesome-reveal": "^3.0.0",
     "react-easy-emoji": "^1.4.0",
     "react-reveal": "^1.2.2"
   }
