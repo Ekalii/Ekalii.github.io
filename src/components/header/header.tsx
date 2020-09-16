@@ -3,15 +3,16 @@ import './header.css';
 import { greeting } from '../../portfolio';
 
 function Header() {
-	const onClickMenu: any = function() {
-		const toggleNav: HTMLElement | null = document.getElementById("toggle-nav");
-		if (!toggleNav) throw new Error("HTML Error!")
-		if (toggleNav.style.display === "block") {
-			toggleNav.style.display = "none";
+	const onClickMenu = function(): void {
+		const navMenu = document.getElementById("toggle-nav");
+		if (!navMenu) throw new Error("HTML Error!");
+		if (navMenu.className === "nav-menu") {
+			navMenu.className += " responsive";
 		} else {
-			toggleNav.style.display = "block";
+			navMenu.className = "nav-menu";
+			
 		}
-	};
+	}
 	return (
 		<header className="header header--section">
 			<div className="inner clearfix">
@@ -20,10 +21,6 @@ function Header() {
 					<span>&lt;</span>
 					<a href="">{greeting.username}</a>
 					<span>/&gt;</span>
-				</div>
-
-				<div className="toggle-btn" onClick={onClickMenu}>
-					<i className="fas fa-bars"></i>
 				</div>
 
 				<ul className="nav-menu" id="toggle-nav">
@@ -51,6 +48,9 @@ function Header() {
 						<a href="#contact">
 							Contact Me
 						</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);" className="icon fas fa-bars" onClick={onClickMenu}></a>
 					</li>
 				</ul>
 
