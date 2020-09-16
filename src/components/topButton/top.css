@@ -1,5 +1,5 @@
 #topButton {
-    visibility:hidden;
+    visibility: hidden;
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -9,7 +9,7 @@
     background-color: #077394;
     color: white;
     cursor: pointer;
-    padding: 30px 15px;
+    padding: 20px 15px;
     border-radius: 15px;
     transition: 0.3s ease-in-out;
     font-size: 20px;
@@ -21,8 +21,6 @@
 
 @media screen and (max-width: 768px) {
     #topButton {
-        font-size: 15px;
-        padding: 20px 10px;
-        right: 20;
+        display: none;
     }
 }
