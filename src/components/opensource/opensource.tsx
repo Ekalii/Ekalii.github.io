@@ -9,9 +9,9 @@ function OpenSource() {
 
     useEffect(() => {
         getRepoData();
-    }, [])
+    }, []);
 
-    function getRepoData() {
+    function getRepoData(): void {
         // I don't know well about this part...
         const client = new ApolloClient({
             uri: "https://api.github.com/graphql",
@@ -57,26 +57,24 @@ function OpenSource() {
         })
         .then((result) => {
             setrepoFunction(result.data.user.pinnedItems.edges);
-            console.log(result);
         })
         .catch(function (error) {
             console.log(error);
-            console.log("Because of this Error, nothing is shown in place of Projects section. Projects section not configured");
         });
     }
 
-    function setrepoFunction(arr: []) {
+    function setrepoFunction(arr: []) : void {
         setRepos(arr);
     }
     return (
         <div className="main" id="opensource">
             <h1 className="project-title">{projects.title}</h1>
             <div className="repo-cards">
-                {repos.map((v) => {
-                    return <GithubCard repos={v} />;
+                {repos.map((repo, i) => {
+                    return <GithubCard repos={repo} key={i} />;
                 })}
             </div>
-            <a href="https://github.com/Ikalli" target="_blank">More Projects</a>
+            <a href="https://github.com/Ikalli" target="_blank" rel="noopener noreferrer">More Projects</a>
         </div>
     );
 }

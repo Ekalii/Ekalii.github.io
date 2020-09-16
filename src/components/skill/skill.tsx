@@ -19,7 +19,7 @@ function Skill() {
                     <div className="skill-icons">
                         <ul className="icons">
                             {skills.icons.map(icon => (
-                                <li className="icon-inline">
+                                <li className="icon-inline" key={icon.key}>
                                     <i className={icon.fontAwesome}></i>
                                     <p>{icon.text}</p>
                                 </li>
@@ -27,7 +27,7 @@ function Skill() {
                         </ul>
                     </div>
                     <div className="desc-skills">
-                        {skills.describeSkills.map(desc => <p>{desc}</p>)}
+                        {skills.describeSkills.map((desc, i) => <p key={i}>{desc}</p>)}
                     </div>
                 </div>
                 </Fade>
