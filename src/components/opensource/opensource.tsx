@@ -63,7 +63,7 @@ function OpenSource() {
         });
     }
 
-    function setrepoFunction(arr: []) : void {
+    function setrepoFunction(arr: []): void {
         setRepos(arr);
     }
     return (
