@@ -3,7 +3,7 @@
     color: rgb(88, 96, 105);
     box-shadow: 0 0 36px rgba(0,0,0,0.1);
     padding: 30px;
-    margin: 70px 30px 30px 0;
+    margin-bottom: 30px;
 }
 .achieve-card:hover {
     transition: 0.2s ease-out;
