@@ -10,6 +10,7 @@
 	margin: 0 auto;
 }
 .section--hello .wrapper {
+	color: #1f1f1f;
 	flex: 1;
 }
 .section--hello .text-title {
