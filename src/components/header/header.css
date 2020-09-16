@@ -62,7 +62,7 @@ header .nav-menu li a:hover, header .icon:hover {
 	transition: 0.2s ease-out;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1380px) {
 	header {
 		height: 80px
 	}
@@ -74,7 +74,7 @@ header .nav-menu li a:hover, header .icon:hover {
 		display: flex;
 	}
 	header .nav-menu li a {
-		font-size: 17px;
+		font-size: 20px;
 	}
 }
 @media screen and (max-width: 980px) {

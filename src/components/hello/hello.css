@@ -46,3 +46,36 @@
 	50% {transform: rotate(0deg);}
 	100% {transform: rotate(0deg);}
 }
+
+@media screen and (max-width:1380px) {
+	.section--hello .wrapper {
+		min-width: 480px;
+	}
+	.section--hello .text-title {
+		font-size: 55px;
+	}
+	.section--hello .text-subtitle {
+		margin-top: 30px;
+		font-size: 20px;
+	}
+}
+@media screen and (max-width:768px) {
+	.section--hello .inner {
+		display: block;
+	}
+	.section--hello .text-title, .section--hello .text-subtitle {
+		text-align: center;
+	}
+	.section--hello .image-div {
+		margin: 30px 0;
+		padding: 0px 40px;
+		max-width: 600px;
+	}
+	.section--hello .image-div img {
+		margin-left: 0;
+	}
+	.section--hello .social-links {
+		width: fit-content;
+		margin: 0 auto;
+	}
+}

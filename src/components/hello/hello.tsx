@@ -7,7 +7,7 @@ function Hello() {
 	const Fade: any = require("react-reveal/Fade");
 	return (
 		<Fade bottom duration={800}>
-		<section className="section section--hello">
+		<section className="section--hello">
 			<div className="inner">
 
 				<div className="wrapper">
@@ -18,14 +18,16 @@ function Hello() {
 					<div className="text-subtitle">
 						<span>{greeting.subTitle}</span>
 					</div>
-					<Social />
+					<div className="social-links">
+						<Social />
+					</div>
 				</div>
 
 				<div className="image-div">
-				<img
-					src={require("../../assets/web-developer-color.svg")}
-					alt="programmer ekalii"
-				/>
+					<img
+						src={require("../../assets/web-developer-color.svg")}
+						alt="programmer ekalii"
+					/>
 				</div>
 
 			</div>
