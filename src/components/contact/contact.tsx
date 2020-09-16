@@ -8,13 +8,16 @@ function Contact() {
     return (
         <Fade bottom duration={800}>
         <section className="section--contact" id="contact">
+
+            <div className="contact-title">
+                <p>{contactInfo.title}</p>
+            </div>
             <div className="inner">
-
-                <div className="wrapper">
-
-                    <div className="contact-title">
-                        <p>{contactInfo.title}</p>
-                    </div>
+                
+                <div className="img-ikalli">
+                    <img src={require("../../assets/Ikalli.jpg")} alt="happy Ikalli" />
+                </div>
+                <div className="wrapper-inner">
                     <div className="contact-subtitle">
                         <p>{contactInfo.subTitle}</p>
                     </div>
@@ -24,11 +27,9 @@ function Contact() {
                     <div className="contact-content">
                         <p>I'm Open To Opportunities! 😁</p>
                     </div>
-                    <Social />
-
-                </div>
-                <div className="img-ikalli">
-                    <img src={require("../../assets/Ikalli.jpg")} alt="happy Ikalli" />
+                    <div className="social-links">
+                        <Social />
+                    </div>
                 </div>
                 
             </div>
