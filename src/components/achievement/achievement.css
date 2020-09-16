@@ -38,7 +38,8 @@
 @media screen and (max-width: 768px) {
     .section--achievement .achieve-title {
         text-align: center;
-        font-size: 30px;
+        font-size: 32px;
+        font-weight: 500;
     }
     .section--achievement .achieve-sub-title {
         text-align: center;

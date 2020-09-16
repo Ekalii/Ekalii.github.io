@@ -45,7 +45,8 @@
 
 @media screen and (max-width: 768px) {
     .main h1 {
-        font-size: 30px;
+        font-size: 32px;
         text-align: center;
+        font-weight: 500;
     }
 }

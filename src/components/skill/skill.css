@@ -75,7 +75,12 @@
     .section--skill .inner {
         display: block;
     }
-    .section--skill .title, .section--skill .subtitle {
+    .section--skill .title {
+        font-size: 32px;
+        text-align: center;
+        font-weight: 500;
+    }
+    .section--skill .subtitle, {
         text-align: center;
     }
     .section--skill .skill-image {

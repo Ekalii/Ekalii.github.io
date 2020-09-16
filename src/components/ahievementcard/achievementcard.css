@@ -27,3 +27,12 @@
     font-size: 20px;
     text-align: center;
 }
+
+@media screen and (max-width: 1380px) {
+    .achieve-card .achieve-card-title {
+        font-size: 20px;
+    }
+    .achieve-card .achieve-card-desc {
+        font-size: 16px;
+    }
+}
