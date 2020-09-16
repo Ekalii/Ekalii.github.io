@@ -3,6 +3,7 @@ import './header.css';
 import { greeting } from '../../portfolio';
 
 function Header() {
+	
 	const onClickMenu = function(): void {
 		const navMenu = document.getElementById("toggle-nav");
 		if (!navMenu) throw new Error("HTML Error!");
@@ -10,9 +11,9 @@ function Header() {
 			navMenu.className += " responsive";
 		} else {
 			navMenu.className = "nav-menu";
-			
 		}
 	}
+
 	return (
 		<header className="header header--section">
 			<div className="inner clearfix">
