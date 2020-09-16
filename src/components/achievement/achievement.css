@@ -7,10 +7,9 @@
     margin: 0 auto;
 }
 .section--achievement .achieve-title {
-    margin: 0;
     font-size: 60px;
 }
-.section--achievement .achieve-sub-title {
+.section--achievement .achieve-subtitle {
     margin-top: 30px;
     font-size: 22px;
     color: #888888;
@@ -27,7 +26,7 @@
     .section--achievement .achieve-title {
         font-size: 45px;
     }
-    .section--achievement .achieve-sub-title {
+    .section--achievement .achieve-subtitle {
         font-size: 20px;
     }
     .section--achievement .achieve-content {
@@ -41,7 +40,7 @@
         font-size: 32px;
         font-weight: 500;
     }
-    .section--achievement .achieve-sub-title {
+    .section--achievement .achieve-subtitle {
         text-align: center;
     }
 }

@@ -12,7 +12,7 @@ function Achievement() {
                     <p>{achievements.title}</p>
                 </div>
 
-                <div className="achieve-sub-title">
+                <div className="achieve-subtitle">
                     <p>{achievements.subTitle}</p>
                 </div>
 
