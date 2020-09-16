@@ -1,7 +1,7 @@
 import React from 'react';
 import './achievementcard.css';
 
-function AchievementCard({ achieves }: any) {
+function AchievementCard({ achieves }: Props) {
     const Fade: any = require('react-reveal/Fade');
     return(
         <Fade bottom duration={800}>
@@ -18,5 +18,13 @@ function AchievementCard({ achieves }: any) {
         </div>
         </Fade>
     );
+}
+interface Props {
+    achieves: {
+        img: string,
+        alt: string,
+        title: string,
+        desc: string
+    }
 }
 export default AchievementCard;

@@ -1,15 +1,14 @@
 import React from 'react';
 import './githubcard.css'
 
-function GithubCard({ repos }: any) {
-    const onClick: any = function(url: string) {
+function GithubCard({ repos }: Props) {
+    const onClick = function(url: string): void {
         let win: Window | null = window.open(url, "blank");
-        if (win === null) throw new Error("url not found")
-        win.focus()
+        win && win.focus();
     }
     const Fade: any = require("react-reveal/Fade");
     return(
-        <Fade duration={1000} bottom>
+        <Fade duration={800} bottom>
         <div>
             <div className="repo-card" onClick={() => onClick(repos.node.url)}>
                 
@@ -40,5 +39,23 @@ function GithubCard({ repos }: any) {
         </div>
         </Fade>
     )
+}
+interface Props {
+    repos: {
+        node: {
+            url: string,
+            name: string,
+            description: string,
+            primaryLanguage: {
+                color: string,
+                name: string
+            },
+            stargazers: {
+                totalCount: number
+            },
+            forkCount: number,
+            diskUsage: number
+        },
+    }
 }
 export default GithubCard;

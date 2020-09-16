@@ -1,7 +1,7 @@
 import React from 'react';
 import './blogcard.css';
 
-function BlogCard({ blogs }: any) {
+function BlogCard({ blogs }: Props) {
     const Fade: any = require('react-reveal/Fade')
     return (
         <Fade bottom duration={800}>
@@ -15,5 +15,12 @@ function BlogCard({ blogs }: any) {
         </a>
         </Fade>
     )
+}
+interface Props {
+    blogs: {
+        title: string,
+        desc: string,
+        url: string
+    }
 }
 export default BlogCard;
