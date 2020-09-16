@@ -4,7 +4,7 @@
     cursor: pointer;
     box-shadow: 0 0 36px rgba(0,0,0,0.1);
     padding: 30px 30px 45px 30px;
-    margin: 70px 30px 30px 0;
+    margin-bottom: 30px;
 }
 .repo-card:hover {
     transition: 0.3s ease-out;
@@ -59,4 +59,13 @@
     font-size: 16px;
     color: #888888;
     font-weight: 200;
+}
+
+@media screen and (max-width: 1380px) {
+    .repo-card .repo-card-desc p {
+        font-size: 16px;
+    }
+    .repo-card .repo-card-stat .wrapper-right p {
+        font-size: 12px;
+    }
 }
