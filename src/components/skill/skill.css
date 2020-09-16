@@ -13,11 +13,11 @@
     margin-left: 10px;
     flex: 1;
 }
-.section--skill .title {
+.section--skill .skill-title {
     font-size: 60px;
     font-weight: 400;
 }
-.section--skill .subtitle {
+.section--skill .skill-subtitle {
     margin-top: 30px;
     font-size: 22px;
     font-weight: 300;
@@ -40,12 +40,12 @@
     margin-top: 10px;
     font-size: 15px;
 }
-.section--skill .desc-skills {
+.section--skill .skill-desc {
     margin-top: 30px;
     font-size: 22px;
     color: #888888;
 }
-.section--skill .desc-skills p {
+.section--skill .skill-desc p {
     margin-top: 20px;
     font-weight: 300;
 }
@@ -56,17 +56,17 @@
 .section--skill .skill-image {
     flex: 1;
 }
-.section--skill img{
+.section--skill .skill-image img{
     max-width: 100%;
     height: auto;
     margin-right: 10px;
 }
 
 @media screen and (max-width: 1380px) {
-    .section--skill .title {
+    .section--skill .skill-title {
         font-size: 45px;
     }
-    .section--skill .subtitle, .section--skill .desc-skills, .section--skill .skill-icons {
+    .section--skill .skill-subtitle, .section--skill .skill-desc, .section--skill .skill-icons {
         font-size: 20px;
     }
 }
@@ -75,12 +75,12 @@
     .section--skill .inner {
         display: block;
     }
-    .section--skill .title {
+    .section--skill .skill-title {
         font-size: 32px;
         text-align: center;
         font-weight: 500;
     }
-    .section--skill .subtitle {
+    .section--skill .skill-subtitle {
         text-align: center;
     }
     .section--skill .skill-image {

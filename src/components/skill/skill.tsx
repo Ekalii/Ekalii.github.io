@@ -5,15 +5,15 @@ import { skills } from '../../portfolio';
 function Skill() {
     const Fade: any = require("react-reveal/Fade");
     return(
-        <section className="section section--skill" id="skills">
+        <section className="section--skill" id="skills">
             <div className="inner">
 
-            <Fade right duration={1000}>
+                <Fade right duration={1000}>
                 <div className="wrapper">
-                    <div className="title">
+                    <div className="skill-title">
                         <p>{skills.title}</p>
                     </div>
-                    <div className="subtitle">
+                    <div className="skill-subtitle">
                         <p>{skills.subTitle}</p>
                     </div>
                     <div className="skill-icons">
@@ -26,7 +26,7 @@ function Skill() {
                             ))}
                         </ul>
                     </div>
-                    <div className="desc-skills">
+                    <div className="skill-desc">
                         {skills.describeSkills.map((desc, i) => <p key={i}>{desc}</p>)}
                     </div>
                 </div>
