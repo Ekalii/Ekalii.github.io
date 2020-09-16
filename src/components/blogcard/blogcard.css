@@ -1,13 +1,12 @@
 .blog-card {
     display: block;
     border-radius: 10px;
-    color: rgb(88, 96, 105);
     cursor: pointer;
     box-shadow: 0 0 36px rgba(0,0,0,0.1);
     padding: 30px;
     margin-bottom: 30px;
     text-decoration: none;
-    color: #000000;
+    color: #1f1f1f;
 }
 .blog-card:hover {
     transition: 0.4s ease-out;

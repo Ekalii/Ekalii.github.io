@@ -2,7 +2,7 @@
     margin-top: 30px;
     font-size: 22px;
 }
-.icon-button i {
+.social-media-links .icon-button i {
     padding: 10px;
     display: inline-block;
     color: #ffffff;
@@ -12,16 +12,16 @@
     transition: 0.3s;
 }
 .github i {
-    background-color: #333333;
+    background-color: #24292e;
 }
 .linkedin i {
-    background-color: #0e76a8;
+    background-color: #0073b1;
 }
 .google i {
     background-color: #ea4335;
 }
 .facebook i {
-    background-color: #3b5998;
+    background-color: #4867aa;
 }
 .medium i {
     background-color: #000000;
