@@ -1,5 +1,5 @@
 .section--skill {
-    margin-top: 100px !important;
+    margin-top: 100px;
     padding: 0 20px;
     position: relative;
 }
@@ -80,7 +80,7 @@
         text-align: center;
         font-weight: 500;
     }
-    .section--skill .subtitle, {
+    .section--skill .subtitle {
         text-align: center;
     }
     .section--skill .skill-image {
