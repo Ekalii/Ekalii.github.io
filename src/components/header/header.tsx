@@ -19,12 +19,12 @@ function Header() {
 
 				<div className="header-logo">
 					<span>&lt;</span>
-					<a href="">{greeting.username}</a>
+					<a href="/">{greeting.username}</a>
 					<span>/&gt;</span>
 				</div>
 				
 				<div className="icon">
-					<a href="javascript:void(0);" className="icon fas fa-bars" onClick={onClickMenu}></a>
+					<a href="#" className="icon fas fa-bars" onClick={onClickMenu}></a>
 				</div>
 
 				<ul className="nav-menu" id="toggle-nav">
