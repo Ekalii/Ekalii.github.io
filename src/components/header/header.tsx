@@ -22,6 +22,10 @@ function Header() {
 					<a href="">{greeting.username}</a>
 					<span>/&gt;</span>
 				</div>
+				
+				<div className="icon">
+					<a href="javascript:void(0);" className="icon fas fa-bars" onClick={onClickMenu}></a>
+				</div>
 
 				<ul className="nav-menu" id="toggle-nav">
 					<li className="nav-list">
@@ -48,9 +52,6 @@ function Header() {
 						<a href="#contact">
 							Contact Me
 						</a>
-					</li>
-					<li>
-						<a href="javascript:void(0);" className="icon fas fa-bars" onClick={onClickMenu}></a>
 					</li>
 				</ul>
 
