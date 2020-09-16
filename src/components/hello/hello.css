@@ -63,7 +63,14 @@
 	.section--hello .inner {
 		display: block;
 	}
-	.section--hello .text-title, .section--hello .text-subtitle {
+	.section--hello .wrapper {
+		min-width: auto;
+	}
+	.section--hello .text-title {
+		font-size: 36px;
+		text-align: center;
+	}
+	.section--hello .text-subtitle {
 		text-align: center;
 	}
 	.section--hello .image-div {
