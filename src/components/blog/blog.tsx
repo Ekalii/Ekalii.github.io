@@ -8,15 +8,15 @@ function Blog() {
         <section className="section--blog" id="blog">
             <div className="inner">
                 
-                <div className="title">
+                <div className="blog-title">
                     <p>{blogs.title}</p>
                 </div>
 
-                <div className="sub-title">
+                <div className="blog-subtitle">
                     <p>{blogs.subTitle}</p>
                 </div>
 
-                <div className="content">
+                <div className="blog-content">
                     {blogs.lists.map(list => {
                         return <BlogCard blogs={list} key={list.key} />
                     })}
