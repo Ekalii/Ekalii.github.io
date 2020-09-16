@@ -16,6 +16,30 @@
     font-weight: 300;
 }
 .section--blog .content {
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit, 32%);
+    column-gap: 2%;
+}
+
+@media screen and (max-width: 1380px) {
+    .section--blog .title {
+        font-size: 45px;
+    }
+    .section--blog .sub-title {
+        font-size: 20px;
+    }
+    .section--blog .content{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+@media screen and (max-width: 768px) {
+    .section--blog .title {
+        font-size: 32px;
+        text-align: center;
+        font-weight: 500;
+    }
+    .section--blog .sub-title {
+        text-align: center;
+    }
 }
