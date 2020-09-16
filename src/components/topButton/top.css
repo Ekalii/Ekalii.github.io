@@ -18,3 +18,11 @@
     transform: translateY(-8px);
     transition: 0.3s ease 0s;
 }
+
+@media screen and (max-width: 768px) {
+    #topButton {
+        font-size: 15px;
+        padding: 10px;
+        right: 20;
+    }
+}
