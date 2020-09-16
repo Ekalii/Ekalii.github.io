@@ -28,10 +28,6 @@
     text-align: center;
     color: #888888;
 }
-.section--skill .skill-icons .icons {
-    width: auto;
-    margin: 0 auto;
-}
 .section--skill .skill-icons .icon-inline {
     display: inline-block;
     text-align: center;
