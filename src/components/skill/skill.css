@@ -28,13 +28,17 @@
     text-align: center;
     color: #888888;
 }
+.section--skill .skill-icons .icons {
+    width: auto;
+    margin: 0 auto;
+}
 .section--skill .skill-icons .icon-inline {
     display: inline-block;
+    text-align: center;
 }
 .section--skill .skill-icons li {
     font-size: 2em;
-    margin-top: 30px;
-    margin-right: 40px;
+    margin: 30px 15px 0px 15px;
 }
 .section--skill .skill-icons p {
     margin-top: 10px;
