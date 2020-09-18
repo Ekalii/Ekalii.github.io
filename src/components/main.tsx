@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from './header/header';
-import Hello from '../components/hello/hello';
-import Skill from '../components/skill/skill';
-import Top from '../components/topButton/top';
-import OpenSource from '../components/opensource/opensource';
-import Achievement from '../components/achievement/achievement';
-import Blog from '../components/blog/blog';
-import Contact from '../components/contact/contact';
-import Footer from '../components/footer/footer';
+import Header from './Header/Header';
+import Hello from './Hello/Hello';
+import Skill from './Skill/Skill';
+import Top from './topButton/Top';
+import OpenSource from './OpenSource/OpenSource';
+import Achievement from './Achievement/Achievement';
+import Blog from './Blog/Blog';
+import Contact from './Contact/Contact';
+import Footer from './Footer/Footer';
 
 function Main() {
 	return (

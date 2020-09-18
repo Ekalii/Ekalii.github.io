@@ -1,5 +1,5 @@
 import React from 'react';
-import './blogcard.css';
+import './BlogCard.css';
 
 function BlogCard({ blogs }: Props) {
     const Fade: any = require('react-reveal/Fade')

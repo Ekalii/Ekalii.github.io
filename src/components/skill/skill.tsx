@@ -1,5 +1,5 @@
 import React from 'react';
-import './skill.css';
+import './Skill.css';
 import { skills } from '../../portfolio';
 
 function Skill() {
@@ -40,6 +40,6 @@ function Skill() {
 
             </div>
         </section>
-    ); 
+    );
 }
 export default Skill;

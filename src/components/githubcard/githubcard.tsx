@@ -1,5 +1,5 @@
 import React from 'react';
-import './githubcard.css'
+import './GithubCard.css'
 
 function GithubCard({ repos }: Props) {
     const onClick = function(url: string): void {

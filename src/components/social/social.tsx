@@ -1,5 +1,5 @@
 import React from 'react';
-import './social.css'
+import './Social.css'
 import { socialMediaLinks } from "../../portfolio";
 
 function Social() {

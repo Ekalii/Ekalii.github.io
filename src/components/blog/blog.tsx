@@ -1,7 +1,7 @@
 import React from 'react';
-import './blog.css';
+import './Blog.css';
 import { blogs } from '../../portfolio';
-import BlogCard from '../blogcard/blogcard';
+import BlogCard from '../BlogCard/BlogCard';
 
 function Blog() {
     return (

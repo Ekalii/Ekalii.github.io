@@ -1,7 +1,7 @@
 import React from 'react';
-import './hello.css';
+import './Hello.css';
 import { greeting } from '../../portfolio';
-import Social from '../../components/social/social';
+import Social from '../Social/Social';
 
 function Hello() {
 	const Fade: any = require("react-reveal/Fade");
