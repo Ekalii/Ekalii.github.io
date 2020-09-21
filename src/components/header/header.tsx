@@ -5,12 +5,14 @@ import { greeting, skills, experience, openSourceProjects, projects, achievement
 function Header() {
 	
 	const onClickMenu = function(): void {
-		const navMenu = document.getElementById("toggle-nav");
-		if (!navMenu) throw new Error("HTML Error!");
-		if (navMenu.className === "nav-menu") {
-			navMenu.className += " responsive";
-		} else {
-			navMenu.className = "nav-menu";
+		if (window.innerWidth < 768) {
+			let navMenu = document.getElementById("toggle-nav");
+			if (!navMenu) throw new Error("HTML Error!");
+			if (navMenu.className === "nav-menu") {
+				navMenu.className += " responsive";
+			} else {
+				navMenu.className = "nav-menu";
+			}
 		}
 	}
 
@@ -25,41 +27,41 @@ function Header() {
 				</div>
 				
 				<div className="icon">
-					<a href="#" className="icon fas fa-bars" onClick={onClickMenu}></a>
+					<a href="#toggle-nav" className="icon fas fa-bars" onClick={onClickMenu}></a>
 				</div>
 
 				<ul className="nav-menu" id="toggle-nav">
-					{skills && <li className="nav-list">
-						<a href="#skills">
+					{skills.view && <li className="nav-list">
+						<a href="#skills" onClick={onClickMenu}>
 							Skills
 						</a>
 					</li>}
-					{experience && <li className="nav-list">
+					{experience.view && <li className="nav-list" onClick={onClickMenu}>
 						<a href="#experience">
 							Experience
 						</a>
 					</li>}
-					{openSourceProjects && <li className="nav-list">
+					{openSourceProjects.view && <li className="nav-list" onClick={onClickMenu}>
 						<a href="#opensource">
 							Open Source
 						</a>
 					</li>}
-					{projects && <li className="nav-list">
+					{projects.view && <li className="nav-list" onClick={onClickMenu}>
 						<a href="#project">
 							Projects
 						</a>
 					</li>}
-					{achievements && <li className="nav-list">
+					{achievements.view && <li className="nav-list" onClick={onClickMenu}>
 						<a href="#achievement">
 							Achievements
 						</a>
 					</li>}
-					{blogs && <li className="nav-list">
+					{blogs.view && <li className="nav-list" onClick={onClickMenu}>
 						<a href="#blog">
 							Blogs
 						</a>
 					</li>}
-					{contactInfo && <li className="nav-list">
+					{contactInfo.view && <li className="nav-list" onClick={onClickMenu}>
 						<a href="#contact">
 							Contact Me
 						</a>

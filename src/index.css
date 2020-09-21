@@ -3,6 +3,7 @@ html {
 }
 body {
   margin: 0;
+  background-color: #121314;
   font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -12,4 +13,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: fit-content;
+  }
 }
