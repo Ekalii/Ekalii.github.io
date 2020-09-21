@@ -15,19 +15,19 @@ function Hello() {
 						{greeting.title}&nbsp;
 						<span className="hello-emoji">👋</span>
 					</div>
+					<div className="role">
+						<span>{greeting.role}</span>
+					</div>
 					<div className="text-subtitle">
 						<span>{greeting.subTitle}</span>
 					</div>
 					<div className="social-links">
 						<Social />
 					</div>
-				</div>
-
-				<div className="image-div">
-					<img
-						src={require("../../assets/web-developer-color.svg")}
-						alt="programmer ekalii"
-					/>
+					<div className="wrapper-links">
+						<a href="#contact" id="about">Learn More &gt;</a>
+						<a href={greeting.resumeLink} id="resume">View Resume &gt;</a>
+					</div>
 				</div>
 
 			</div>

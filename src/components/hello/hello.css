@@ -1,17 +1,16 @@
 .section--hello {
-	margin-top: 50px !important;
+	margin-top: 10px;
 	position: relative;
-	padding: 0 20px;
+	padding: 125px 20px;
 	margin-bottom: 0;
+	background-color: #333333;
 }
 .section--hello .inner {
-	display: flex;
 	max-width: 1600px;
 	margin: 0 auto;
 }
 .section--hello .wrapper {
-	color: #1f1f1f;
-	flex: 1;
+	color: #ffffff;
 }
 .section--hello .text-title {
 	font-size: 80px;
@@ -24,19 +23,43 @@
 	transform-origin: 80% 80%;
 	animation: hello 1.8s linear infinite;
 }
+.section--hello .role {
+	margin-top: 70px;
+	font-size: 35px;
+	color: #ffffff;
+}
 .section--hello .text-subtitle {
 	font-weight: 300;
-	color: #888888;
+	color: #dddddd;
 	margin-top: 50px;
 	font-size: 25px;
 	line-height: 1.5;
 }
-.section--hello .image-div {
-	flex: 1;
+.section--hello .social-links {
+	margin-top: 50px;
 }
-.section--hello img {
-	width: 100%;
-	margin-left: 5px;
+.section--hello .wrapper-links {
+	margin-top: 50px;
+}
+.section--hello .wrapper-links > * {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 22px;
+	color: #dddddd;
+	padding: 20px 30px;
+	border: 2px solid #dddddd;
+	margin-right: 20px;
+	border-radius: 16px;
+	text-align: center;
+}
+.section--hello .wrapper-links > *:hover {
+	background-color: #ffffff;
+	color: #1f1f1f;
+	border-color: #ffffff;
+	transition: 0.3s ease-out;
+}
+#resume {
+	margin-right: 0;
 }
 @keyframes hello {
 	0% {transform: rotate(0deg);}
@@ -55,12 +78,21 @@
 	.section--hello .text-title {
 		font-size: 55px;
 	}
+	.section--hello .role {
+		font-size: 25px;
+	}
 	.section--hello .text-subtitle {
 		margin-top: 30px;
 		font-size: 20px;
 	}
+	.section--hello .wrapper-links > * {
+		font-size: 20px;
+	}
 }
 @media screen and (max-width:768px) {
+	.section--hello {
+		padding: 50px 20px;
+	}
 	.section--hello .inner {
 		display: block;
 	}
@@ -71,19 +103,18 @@
 		font-size: 36px;
 		text-align: center;
 	}
-	.section--hello .text-subtitle {
+	.section--hello .role {
+		margin-top: 30px;
 		text-align: center;
 	}
-	.section--hello .image-div {
-		margin: 30px 0;
-		padding: 0px 40px;
-		max-width: 600px;
-	}
-	.section--hello .image-div img {
-		margin-left: 0;
+	.section--hello .text-subtitle {
+		text-align: center;
 	}
 	.section--hello .social-links {
 		width: fit-content;
 		margin: 0 auto;
+	}
+	.section--hello .wrapper-links {
+		text-align: center;
 	}
 }
