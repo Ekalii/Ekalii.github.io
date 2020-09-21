@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ApolloClient, { gql } from 'apollo-boost';
 import './OpenSource.css';
 import GithubCard from '../GithubCard/GithubCard';
-import { projects } from '../../portfolio';
+import { openSourceProjects } from '../../portfolio';
 
 function OpenSource() {
     const [ repos, setRepos ] = useState([]);
@@ -68,7 +68,7 @@ function OpenSource() {
     }
     return (
         <div className="main" id="opensource">
-            <h1 className="project-title">{projects.title}</h1>
+            <h1 className="project-title">{openSourceProjects.title}</h1>
             <div className="repo-cards">
                 {repos.map((repo, i) => {
                     return <GithubCard repos={repo} key={i} />;
