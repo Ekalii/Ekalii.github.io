@@ -48,12 +48,12 @@ header .nav-menu {
 	align-items: center;
 	justify-content: center;
 	float: right;
-}
-header .nav-menu li {
-	margin-right: 50px;
+	margin-right: 20px;
 }
 header .nav-menu li a {
-	font-size: 25px;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	font-size: 20px;
 	text-decoration-line: none;
 	color: #1f1f1f;
 }
@@ -67,14 +67,17 @@ header .nav-menu li a:hover, header .icon:hover {
 		height: 80px
 	}
 	header .header-logo {
+		margin-left: 20px;
 		font-size: 32px;
 		padding: 24px 0;
 	}
 	header .nav-menu {
 		display: flex;
+		margin-right: 0;
 	}
 	header .nav-menu li a {
-		font-size: 20px;
+		font-size: 16px;
+		padding: 25px 15px;
 	}
 }
 @media screen and (max-width: 980px) {

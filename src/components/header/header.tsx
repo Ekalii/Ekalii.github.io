@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import { greeting } from '../../portfolio';
+import { greeting, skills, experience, openSourceProjects, projects, achievements, blogs, contactInfo } from '../../portfolio';
 
 function Header() {
 	
@@ -29,31 +29,41 @@ function Header() {
 				</div>
 
 				<ul className="nav-menu" id="toggle-nav">
-					<li className="nav-list">
+					{skills && <li className="nav-list">
 						<a href="#skills">
 							Skills
 						</a>
-					</li>
-					<li className="nav-list">
+					</li>}
+					{experience && <li className="nav-list">
+						<a href="#experience">
+							Experience
+						</a>
+					</li>}
+					{openSourceProjects && <li className="nav-list">
 						<a href="#opensource">
 							Open Source
 						</a>
-					</li>
-					<li className="nav-list">
+					</li>}
+					{projects && <li className="nav-list">
+						<a href="#project">
+							Projects
+						</a>
+					</li>}
+					{achievements && <li className="nav-list">
 						<a href="#achievement">
 							Achievements
 						</a>
-					</li>
-					<li className="nav-list">
+					</li>}
+					{blogs && <li className="nav-list">
 						<a href="#blog">
 							Blogs
 						</a>
-					</li>
-					<li className="nav-list">
+					</li>}
+					{contactInfo && <li className="nav-list">
 						<a href="#contact">
 							Contact Me
 						</a>
-					</li>
+					</li>}
 				</ul>
 
 			</div>
