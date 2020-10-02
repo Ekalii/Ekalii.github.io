@@ -28,6 +28,7 @@
     display: -webkit-inline-box;
     overflow: hidden;
     -webkit-line-clamp: 2;
+    line-height: 1.4;
 }
 
 @media screen and (max-width: 1380px) {
