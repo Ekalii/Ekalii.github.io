@@ -1,7 +1,7 @@
 import React from 'react';
 import './Skill.css';
 import { skills } from '../../portfolio';
-import SkillCard from '../SkillCard/SkillCard';
+import SkillCard from '../skillcard/SkillCard';
 
 function Skill() {
     const Fade: any = require("react-reveal/Fade");

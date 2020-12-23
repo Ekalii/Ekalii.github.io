@@ -1,7 +1,7 @@
 import React from 'react';
 import './Project.css';
 import { projects } from '../../portfolio';
-import ProjectCard from '../ProjectCard/ProjectCard';
+import ProjectCard from '../projectcard/ProjectCard';
 
 function Project() {
     return (

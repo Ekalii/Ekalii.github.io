@@ -1,6 +1,6 @@
 import React from 'react';
 import { experience } from '../../portfolio';
-import ExpCard from '../ExpCard/ExpCard';
+import ExpCard from '../expcard/ExpCard';
 import './Experience.css';
 
 function Experience() {

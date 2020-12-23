@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import { contactInfo } from '../../portfolio';
-import Social from '../Social/Social';
+import Social from '../social/Social';
 
 function Contact() {
     const Fade: any = require('react-reveal/Fade');

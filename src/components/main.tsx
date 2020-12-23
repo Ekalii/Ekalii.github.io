@@ -1,15 +1,15 @@
 import React from 'react';
-import Header from './Header/Header';
-import Hello from './Hello/Hello';
-import Skill from './Skill/Skill';
-import Top from './topButton/Top';
-import OpenSource from './OpenSource/OpenSource';
-import Achievement from './Achievement/Achievement';
-import Blog from './Blog/Blog';
-import Contact from './Contact/Contact';
-import Footer from './Footer/Footer';
-import Experience from './Experience/Experience';
-import Project from './Project/Project';
+import Header from './header/Header';
+import Hello from './hello/Hello';
+import Skill from './skill/Skill';
+import Top from './top/top';
+import OpenSource from './opensource/OpenSource';
+import Achievement from './achievement/Achievement';
+import Blog from './blog/Blog';
+import Contact from './contact/Contact';
+import Footer from './footer/Footer';
+import Experience from './experience/Experience';
+import Project from './project/Project';
 import { greeting, skills, experience, openSourceProjects, projects, achievements, blogs, contactInfo } from '../portfolio';
 
 function Main() {

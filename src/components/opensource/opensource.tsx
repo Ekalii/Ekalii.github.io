@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ApolloClient, { gql } from 'apollo-boost';
 import './OpenSource.css';
-import GithubCard from '../GithubCard/GithubCard';
+import GithubCard from '../githubcard/GithubCard';
 import { openSourceProjects } from '../../portfolio';
 
 function OpenSource() {
